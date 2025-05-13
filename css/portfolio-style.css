@@ -1,0 +1,95 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body{
+    font-family: Arial, sans-serif !important;
+    background-color: #f4f4f4 !important;
+
+}
+
+header{
+    background-color: #00093a !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 1em !important;
+    box-shadow: 0 0 10px rgb(255, 255, 255) !important;
+}
+
+.img-perfil{
+    width: 10% !important;
+    border-radius: 50% !important;
+    box-shadow: 0 0 10px rgb(255, 255, 255) !important;
+}
+
+footer{
+    background-color: #00093a !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 1em !important;
+    box-shadow: 0 0 10px rgb(255, 255, 255) !important;
+}
+
+.conteudo{
+    background-color: white !important;
+    padding: 2em !important;
+    margin-top: 1em !important;
+    border-radius: 30px !important;
+    width: 100% !important;
+    box-shadow: 0 0 10px rgb(0, 7, 71) !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.principal{
+    text-align: center;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    margin-top: 1% !important;
+    margin-top: 15% !important;
+}
+
+.img-icone{
+    width: 100% !important;  
+}
+
+.txt-icone{
+    font-size: 200% !important;
+}
+
+@media (min-width: 200px) and (max-width:768px){
+    .img-icone{
+        width: 200% !important;
+    }
+
+    .txt-icone{
+         font-size: 100% !important;
+    }
+
+    .conteudo{
+        background-color: white !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130% !important;
+    }
+    
+    .principal{
+        text-align: center;
+        margin-left: 10% !important;
+        margin-right: 25% !important;
+        margin-top: 1% !important;
+        margin-top: 50% !important;
+    }
+
+    .img-perfil{
+        width: 30% !important;
+        border-radius: 50% !important;
+        box-shadow: 0 0 10px rgb(255, 255, 255) !important;
+    }
+
+}
