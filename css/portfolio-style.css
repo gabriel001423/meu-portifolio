@@ -56,7 +56,7 @@ a{
 }
 
 .txt-icone{
-    font-size: 220% !important;
+    font-size: 200% !important;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ main a :hover{
     }
 
     .txt-icone{
-         font-size: 200% !important;
+         font-size: 100% !important;
     }
 
     .conteudo{
@@ -79,6 +79,7 @@ main a :hover{
         margin-top: 2em !important;
         border-radius: 10px !important;
         width: 130% !important;
+        box-shadow: 0 0 10px rgb(207, 207, 207) !important;
     }
     
     .principal{
@@ -95,4 +96,8 @@ main a :hover{
         box-shadow: 0 0 10px rgb(255, 255, 255) !important;
     }
 
+    main a :hover{
+        background-color: rgb(238, 238, 238) !important;
+
+    }
 }
